@@ -22,7 +22,7 @@ You can see the current readings and scheduler results on an integrated web inte
         --name landroid_bridge \
         --link mqtt:mqtt \
         -v /tmp/config.json:/usr/src/app/config.json \
-        weweave/landroid-bridge
+        boomalien/landroid-bridge
     ```
 
 There is also a pre-built arm32v7 image for Raspberry Pi: ```weweave/landroid-bridge:arm32v7```
